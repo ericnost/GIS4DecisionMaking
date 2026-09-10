@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <style>
+    /* Reset and Typography */
+    html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; background-color: #f8f9fa; }
+    
+    /* Scroll Snapping Container */
+    .slide-container { 
+      scroll-snap-type: y mandatory; 
+      overflow-y: scroll; 
+      height: 100vh; 
+    }
+    
+    /* Individual Slide Styling */
+    .slide { 
+      scroll-snap-align: start; 
+      min-height: 100vh; 
+      padding: 10vh 15vw; 
+      box-sizing: border-box; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center;
+      background-color: #ffffff;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    /* Hide the original Markdown horizontal rule */
+    .slide hr { display: none; } 
+
+    /* Element Styling */
+    h1 { font-size: 4rem; color: #2c3e50; }
+    h2 { font-size: 3rem; color: #34495e; }
+    p, li { font-size: 2rem; line-height: 1.6; color: #333; }
+    img { max-width: 100%; max-height: 45vh; object-fit: contain; margin-top: 1rem; border-radius: 4px; }
+    blockquote { border-left: 5px solid #3498db; padding-left: 1rem; color: #555; }
+
+    /* Slide styles */
+    .split-slide { display: flex; align-items: center; gap: 4vw; width: 100%; }
+    .split-slide > div { flex: 1; }
+    .image-only img { max-height: 80vh; width: auto; margin: 0 auto; display: block; }
+  </style>
+</head>
+<body>
+
+  <div class="slide-container" id="presentation-content">
+    {{ content }}
+  </div>
+
+  <script>
+    // Automatically wrap content between Markdown <hr> tags into slide divs
+    document.addEventListener("DOMContentLoaded", function() {
+      const container = document.getElementById('presentation-content');
+      const rawHTML = container.innerHTML;
+      
+      // Split the rendered HTML at every <hr> tag
+      const sections = rawHTML.split(/<hr\s*\/?>/i);
+      
+      // Wrap each section in a slide div and replace the container content
+      container.innerHTML = sections.map(section => `<div class="slide">${section}</div>`).join('');
+    });
+  </script>
+
+</body>
+</html>
