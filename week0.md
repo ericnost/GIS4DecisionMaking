@@ -106,8 +106,8 @@ _Think back to 2480, were those maps really decision-focused?_
 
 # Course structure
 
-<object data="{{ site.url }}{{ site.baseurl }}/assets/pdfs/3440 F26.pdf" type="application/pdf" width="100%" height="800px">
-  <p>Unable to display PDF file. <a href="{{ site.url }}{{ site.baseurl }}/assets/pdfs/3440 F26.pdf">Download</a>.</p>
+<object data="{{ site.baseurl }}/assets/pdfs/3440 F26.pdf" type="application/pdf" width="100%" height="800px">
+  <p>Unable to display PDF file. <a href="{{ site.baseurl }}/assets/pdfs/3440 F26.pdf">Download</a>.</p>
 </object>
 
 ---
