@@ -18,7 +18,7 @@
     .slide { 
       scroll-snap-align: start; 
       min-height: 100vh; 
-      padding: 10vh 15vw; 
+      padding: 5vh 5vw; /* Reduced from 10vh 15vw */
       box-sizing: border-box; 
       display: flex; 
       flex-direction: column; 
@@ -34,8 +34,14 @@
     h1 { font-size: 4rem; color: #2c3e50; }
     h2 { font-size: 3rem; color: #34495e; }
     p, li { font-size: 2rem; line-height: 1.6; color: #333; }
-    img { max-width: 100%; max-height: 45vh; object-fit: contain; margin-top: 1rem; border-radius: 4px; }
     blockquote { border-left: 5px solid #3498db; padding-left: 1rem; color: #555; }
+    img { 
+      max-width: 100%; 
+      max-height: 75vh; 
+      object-fit: contain; 
+      margin-top: 1rem; 
+      border-radius: 4px; 
+    }
 
     /* Slide styles */
     .split-slide { display: flex; align-items: center; gap: 4vw; width: 100%; }

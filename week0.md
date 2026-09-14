@@ -1,7 +1,7 @@
 ---
 layout: lectures
 title: "Week 0: Introductions"
-permalink: /lectures/week-01/
+permalink: /lectures/week-00/
 ---
 
 # Week 0
