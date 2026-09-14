@@ -69,13 +69,13 @@ One distinction (we'll review more next week): **formal** (e.g. where to put a f
 <div markdown="1">
 
 Spatial decision support relies on “how maps work”
-![Cartography cube](/assets/images/cartographycube.webp)
+![Cartography cube]({{ site.baseurl }}/assets/images/cartographycube.webp)
 [Source](https://www.researchgate.net/publication/377850279/figure/fig1/AS:11431281221353698@1706762355671/The-cartographic-cube-introduced-in-1994-by-MacEachren-11-illustrates-uses-and.png)
 
 </div>
 <div markdown="1">
 
-![Swoopy diagram](/assets/images/swoopy.webp)
+![Swoopy diagram]({{ site.baseurl }}/assets/images/swoopy.webp)
 [Source](https://www.researchgate.net/profile/Anthony-Robinson-3/publication/247693633/figure/fig1/AS:669441088057358@1536618601813/The-geovisualization-research-process-often-called-the-swoopy-diagram-as-conceived-by.png
 )
 </div>
@@ -86,7 +86,7 @@ Spatial decision support relies on “how maps work”
 <div class="split-slide" markdown="1">
 <div markdown="1">
 
-![Cartography cube](/assets/images/cartographycube.webp)
+![Cartography cube]({{ site.baseurl }}/assets/images/cartographycube.webp)
 [Source](https://www.researchgate.net/publication/377850279/figure/fig1/AS:11431281221353698@1706762355671/The-cartographic-cube-introduced-in-1994-by-MacEachren-11-illustrates-uses-and.png)
 
 </div>
