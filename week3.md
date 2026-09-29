@@ -33,6 +33,7 @@ Location modeling problems, data management check-in, RFP/Application 1 brainsto
 ---
 # Who does my public transit system serve?
 ![Bus stop service areas](https://www.esri.com/arcgis-blog/app/uploads/2016/06/A2ServiceAreas1.png)
+
 [Source](https://www.esri.com/arcgis-blog/products/network-analyst/transportation/who-does-my-public-transit-system-serve)
 
 ---
@@ -55,7 +56,9 @@ Put another way:
 # LSCP examples
 <div class="split-slide" markdown="1">
 <div markdown="1">
-"Solving the problem gives the optimal solution: XA = 1, XB = 1, XC = 1, XD = 0. That is, to cover all demand in Figure 3, at least three facilities are required, and these facilities need to be sited at A, B, and C." Say what?
+> "Solving the problem gives the optimal solution: XA = 1, XB = 1, XC = 1, XD = 0. That is, to cover all demand in Figure 3, at least three facilities are required, and these facilities need to be sited at A, B, and C." 
+
+Say what?
 </div>
 <div markdown="1">
 
@@ -77,6 +80,7 @@ Let's learn some computer programming while we're at it...
 Python package: an interconnected set of modules and functions that help users solve (general) problems, such as organizing (spatial) data
 
 Pro: we don't have to re-invent the wheel ourselve. Packages are infrastructure to make our lives easier
+
 Con: inherently some "black-boxing" going on
 
 ```
@@ -140,11 +144,15 @@ Put another way:
 ---
 # Location-allocation
 Definition: location model constructed to **find the _best_ locations of a number of facilities so that the _total demand weighted travel is minimal_**
-- Who goes where?
+
+Who goes where?
+
 > **Location**: The most suitable location(s) considering the demand distribution. Suitability is commonly the outcome of minimizing transportation costs, often using distance as a proxy.
 i.e. the best location for the grocery store
+
 > **Allocation**: The most suitable allocation of flows from points of distribution to points of demand. As for location, suitability is commonly the outcome of minimizing transportation costs.
 i.e. whom the grocery store serves
+
 [Source](https://transportgeography.org/contents/methods/location-allocation-models/)
 
 ---
@@ -155,14 +163,16 @@ Challenges
 - Same issue with previous coverage problems (MCLP/LSCP) too...
 
 ![Spider diagram for Location-Allocation](https://desktop.arcgis.com/en/arcmap/latest/extensions/business-analyst/GUID-6D82E6EC-4AD1-4A55-B01A-8EEA364A23DA-web.png)
+
 [Source](https://desktop.arcgis.com/en/arcmap/latest/extensions/business-analyst/GUID-6D82E6EC-4AD1-4A55-B01A-8EEA364A23DA-web.png)
 ---
 # LA: P-Median Problem
 - Place p facilities while minimizing distance of all demands 
+
 Another way to put it:
 - Goal: Minimize the total travel distance or cost between demand points and their closest facility.
 - Rule: We have p facilities to place (e.g. choose where to put 3 warehouses to minimize the total delivery miles for all customers).
-•	Heuristic: a feasible solution to a problem
+- Heuristic: a feasible solution to a problem
 
 In ArcGIS Pro: [Minimize Impedance](https://pro.arcgis.com/en/pro-app/3.6/help/analysis/networks/location-allocation-analysis-layer.htm)
 
@@ -172,16 +182,16 @@ Back to the grocery store location-allocation.
 
 Our goal was to find the candidate store site that minimized the travel distance for the most people (total demand weighted travel). P-median ("Minimize Impedance") assumes short trips are all consumers demand. Each demand point (you!) simply gets "assigned" to the nearest store. 
 
-In the real world, we may want to incorporate consumer preferences. Hence we used the "Maximize Market Share" tool, which relies on a ["gravity model"](https://pro.arcgis.com/en/pro-app/3.6/tool-reference/business-analyst/understanding-huff-model.htm) that measures the _probability_ of demand rather than a more falliable determination of demand. It accounts for relative attraction AND distance (weight/distance), although we didn't _actually_ have the info to weight different supermarkets differently.
+**In the real world, we may want to incorporate consumer preferences**. Hence we used the "Maximize Market Share" tool, which relies on a ["gravity model"](https://pro.arcgis.com/en/pro-app/3.6/tool-reference/business-analyst/understanding-huff-model.htm) that measures the _probability_ of demand rather than a more falliable determination of demand. It accounts for relative attraction AND distance (weight/distance), although we didn't _actually_ have the info to weight different supermarkets differently.
 
 ---
 # Aside: how do we model how people think about distance?
 We are assessing "impedance" and it is a function of cost: time or distance and ... perception. We can further model the attractiveness of a site based on how attraction "decays" with distance.
 
 Options:
-* Linear - 5, 10, 20 minutes - the relative proportions remain the same
-* Power - e.g. x^2 = 25, 100, 400 - the cost increases non-linearly
-* Exponential - e.g. 2^5 = 32, 1024, 1048576 - even more exaggerated increases in cost, especially further away 
+* **Linear** - 5, 10, 20 minutes - the relative proportions remain the same
+* **Power** - e.g. x^2 = 25, 100, 400 - the cost increases non-linearly
+* **Exponential** - e.g. 2^5 = 32, 1024, 1048576 - even more exaggerated increases in cost, especially further away 
 
 (Typically we then invert these costs so they become "weights", 32 becomes 1/32, which is a larger/higher weight number than 1/1024)
 
@@ -209,14 +219,17 @@ Similarities
 - **Core Functionality**: Both act as spatial database containers capable of storing vector geometry, raster datasets, and non-spatial attributes within a single relational structure.
 - **ArcGIS Pro Integration**: ArcGIS Pro provides support for viewing, managing, and editing data in both proprietary Geodatabases and open SQLite-based GeoPackage files.
 
+---
+# Spatial data management
 Differences
-|  | Geodatabase | GeoPackage |
-| :---: | :---: | :---: |
-| Standardization | A proprietary architecture built and maintained specifically for the Esri ArcGIS software ecosystem.  | An open, non-proprietary standard developed by the Open Geospatial Consortium to maximize interoperability.  |
-| Platforms | Optimized for, but not exclusive to, ArcGIS Pro | Universal |
-| Structure | Integration with other database systems like PostgrSQL | Single-file SQLite |
-| Users | Multiple users across an organization | Single-users |
-| Use | Schema constraints | Storage container |
+
+| Aspect | Geodatabase | GeoPackage |
+| :--- | :--- | :--- |
+| **Standardization** | Proprietary architecture built and maintained specifically for the Esri ArcGIS software ecosystem. | Open, non-proprietary standard developed by the Open Geospatial Consortium (OGC) to maximize interoperability. |
+| **Platforms** | Optimized for, but not exclusive to, ArcGIS Pro. | Universal cross-platform compatibility. |
+| **Structure** | Integrates with database management systems like PostgreSQL (Enterprise) or uses folder structures (File GDB). | Single-file SQLite database. |
+| **Users** | Supports multiple simultaneous users across an organization (Enterprise). | Typically restricted to single-user editing. |
+| **Use** | Designed for complex schema constraints, topologies, and relationship classes. | Ideal as a lightweight, portable storage container. |
 
 ---
 # Application 1: RFP
