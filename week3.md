@@ -13,9 +13,9 @@ Location modeling problems, data management check-in, RFP/Application 1 brainsto
 # Service and catchment areas
 <div class="split-slide" markdown="1">
 <div markdown="1">
-- Catchment area: conceptual territory being served or accessed
-- Service area: the technical implementation of CA, what the model deems to be "the geographical area where the intended service of a facility is effectively received"
-- SA model parameters: predetermined ranges such as travel distance/time or nearest facility
+- **Catchment area**: conceptual territory being served or accessed
+- **Service area**: the technical implementation of CA, what the model deems to be "the geographical area where the intended service of a facility is effectively received"
+- SA **model parameters**: predetermined ranges such as travel distance/time or nearest facility
   - Euclidean distance e.g. cell tower coverage. Tools: buffer
   - Relative distance, including network distance e.g. travel time for fire truck. Tools: Service Area, Viewshed
 - Sometimes the SA is "fixed" (e.g. fire trucks have a 5 minute service area) and sometimes we need to determine it (e.g. who are the store's customers?)
@@ -72,14 +72,14 @@ Say what?
 # LSCP examples
 Let's learn some computer programming while we're at it...
 - [allagash](https://apulverizer.github.io/allagash/examples/LSCP.html)
--	[allagash in ArcGIS](https://apulverizer.github.io/allagash/examples/Using%20ArcGIS.html)
+- [allagash in ArcGIS](https://apulverizer.github.io/allagash/examples/Using%20ArcGIS.html)
 - [ArcGIS tool - "Maximize Coverage, Minimize Facilities"](https://pro.arcgis.com/en/pro-app/3.6/help/analysis/networks/location-allocation-analysis-layer.htm)
 
 ---
 # What we just saw
 Python package: an interconnected set of modules and functions that help users solve (general) problems, such as organizing (spatial) data
 
-Pro: we don't have to re-invent the wheel ourselve. Packages are infrastructure to make our lives easier
+Pro: we don't have to re-invent the wheel ourselves. Packages are infrastructure to make our lives easier
 
 Con: inherently some "black-boxing" going on
 
