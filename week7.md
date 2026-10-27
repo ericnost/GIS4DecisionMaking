@@ -244,9 +244,9 @@ But we still have to make assumptions (aka choices)!
 <div markdown="1">
 "Natural" scenarios, analytical scenarios, and futures
 
-- Natural scenarios = company X proposes to develop a mine here, how will that change ecosystem services relative to the status quo?
-- Analytical scenarios = these XYZ restoration projects that each individually build the most land per dollar spent, vs the status quo
-- Futures = stories about different paths society/environments can take
+- **Natural scenarios** = company X proposes to develop a mine here, how will that change ecosystem services relative to the status quo?
+- **Analytical scenarios** = these XYZ restoration projects that each individually build the most land per dollar spent, vs the status quo
+- **Futures** = stories about different paths society/environments can take
 
 [Example](https://wsc.limnology.wisc.edu/yahara2070-ecosystem-benefits/index.html): Yahara River watershed flooding in Madison, WI USA
 
