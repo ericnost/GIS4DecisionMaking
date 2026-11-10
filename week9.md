@@ -118,7 +118,9 @@ _aleatory uncertainty_ = "random, truly unpredictable events."
 
 
 **Projection** = "trend extrapolation … and works best for short time horizons and simple problems, e.g. as in estimating student enrollments and related space needs for the next five years."
+
 **Forecasting** = "more general and complex, and can include projections as well as more sophisticated techniques. Forecasts and projections always have some greater or lesser degree of uncertainty, since they can at best be rational attempts to guess – not to know – what the future holds in the particular area of interest."
+
 **Prediction** = "implies much higher levels of accuracy and precision (barring human or technical errors)."
 
 [Source](https://gistbok.ucgis.org/bok-topics/2022-quarter-02/conceptual-models-error-and-uncertainty)
@@ -141,7 +143,9 @@ _aleatory uncertainty_ = "random, truly unpredictable events."
 # The role of data quality
 
 **data quality** = "the degree to which our data match the reality they intend to represent" aka how much error is there?
+
 **metadata** = "the documentation of data quality and other dataset characteristics"
+
 **data evaluation** = "the process of assessing whether a dataset is suitable _for a particular use_, using tools such as metadata."
 
 > the goal is not to find the “perfect” dataset (...this does not exist), but to determine how well each dataset meets the needs of a particular application, a concept known as **fitness for use**. Each dataset may be excellent for the purposes for which it was originally created but unsuitable for other purposes...
@@ -160,8 +164,11 @@ This is _subjective_: different people themselves have different ideas about ris
 ---
 # Metadata
 **Access**: "how it can be acquired and whether it can be used legally."
+
 **Content**: "What the dataset claims to include, and conversely, what it not include." 
+
 **Structure**: "How the dataset is organized, specifying its file format, attribute datatypes, coordinate system, and so on."
+
 **Semantics**: "What the terms and measurements in the data mean."
 
 Example: [NPRI dataset](https://open.canada.ca/data/en/dataset/06022cc0-a31e-4b4c-850d-d4dccda5f3ac)
@@ -169,9 +176,13 @@ Example: [NPRI dataset](https://open.canada.ca/data/en/dataset/06022cc0-a31e-4b4
 ---
 # Measures of data quality
 **Attribute Accuracy**: "The degree to which attribute values match real-world values." Example: land use/cover classification accuracy.
+
 **Positional Accuracy**: "The degree to which data locations and shapes match their true counterparts."
+
 **Completeness**: "The extent to which all of the features and attributes are included in the data."
+
 **Currency**: "How up-to-date the data are relative to the present state of the world"
+
 **Provenance**: "it is simply ethical for data producers to be honest about their sources and methods."
 
 Example: [AAFC Land Use](https://open.canada.ca/data/en/dataset/fa84a70f-03ad-4946-b0f8-a3b481dd5248)
@@ -281,4 +292,3 @@ Step 6: Submit both map images to the Courselink Quiz, inserting them as images 
 
 </div>
 </div>
-
