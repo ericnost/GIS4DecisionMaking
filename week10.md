@@ -13,11 +13,25 @@ PPGIS, professional and practical ethics, tutorial preview: indices
 # Application 4 - Public Comment
 You've successfully created a request for proposals (RFP) for a spatial decision-making context, switched roles to make a bid on that RFP, and then conducted the necessary analysis. Now it is time to switch roles one last time, from that of a GIS analyst consulting for a government, business, or not-for-profit, to a member of the public. 
 
-**Step 1: identify a project.** You are welcome to switch projects and provide a public comment on someone else's analysis, but that depends on them posting it to the Discussion Board, which I am not requiring any one do. Most likely, you will stick with the project you completed the proposal and analysis for.
+**Step 1: identify a project.** You are welcome to switch projects and provide a public comment on someone else's analysis, but that depends on them posting it to the Discussion Board, which I am not requiring anyone do. Most likely, you will stick with the project you completed the proposal and analysis for.
+
+---
+# Application 4 - Public Comment - Credits
+**NOTE** - Credits now seem to be an issue; this _should_ be confined to network analysis projects (routing, service areas, location-allocation). You may not have the credits to do another run or you might be cutting it close. 
+
+You have three options:
+
+a. build your own network for network analyses
+
+b. think carefully about what you want to do before you do it - you only need to make relatively small changes
+
+c. write your public comment on the MCE/Suitability Modelling tutorial
 
 ---
 # Application 4 - Public Comment - Role
-**Step 2: identify a stakeholder group** with an alternative perspective on the issue. *One way to think about this is, what are the assumptions going into your analysis and how could they be different?* Some examples: if you are doing an MCE that weights three different parameters (e.g. slope, land cover, and distance to wetlands), perhaps one needs to be weighted more than the others were in the original analysis (for instance, an environmental NGO might say distance to wetlands is more important than land cover type). Or perhaps there is some other variable that is needed instead of or in addition to these. If you are doing some kind of location-allocation, maybe different demographics need to be considered as demand points, such as low-income residents rather than the general population. 
+**Step 2: identify a stakeholder group** with an alternative perspective on the issue. *One way to think about this is, what are the assumptions going into your analysis and how could they be different?* 
+
+If you are doing an MCE that weights three different parameters (e.g. slope, land cover, and distance to wetlands), perhaps one needs to be weighted more than the others were in the original analysis (for instance, an environmental NGO might say distance to wetlands is more important than land cover type). Or perhaps there is some other variable that is needed instead of or in addition to these. 
 
 ---
 # Application 4 - Public Comment - Do The Work
@@ -37,14 +51,19 @@ _You must include the original RFP **AND** analysis in your submission, but thes
 
 ---
 # PPGIS
-
-You are making a decision about whether to renew the permit for a hazardous waste incinerator. 
+<div class="split-slide" markdown="1">
+<div markdown="1">
+**You are making a decision about whether to renew the permit for a hazardous waste incinerator.**
 
 What data would you use?
 
 How would you use it?
+</div>
 
+<div markdown="1">
 ![Clean Harbors map]({{ site.baseurl }}/assets/images/cleanharbors.png)
+</div>
+</div>
 
 ---
 # Chelsea Creek example
@@ -55,36 +74,45 @@ How would you use it?
 
 ---
 # Green Latinos example
-
-<iframe src="https://www.greenlatinos.org/wp-content/uploads/2024/04/N-Denver-Report_English_Online_workinghyperlinks.pdf" width="100%" height="600px">
-  <p><a href="https://www.greenlatinos.org/wp-content/uploads/2024/04/N-Denver-Report_English_Online_workinghyperlinks.pdf">Download the PDF</a>.</p>
-</iframe>
+<iframe src="https://www.greenlatinos.org/wp-content/uploads/2024/04/N-Denver-Report_English_Online_workinghyperlinks.pdf" width="100%" height="600px"></iframe>
+<a href="https://www.greenlatinos.org/wp-content/uploads/2024/04/N-Denver-Report_English_Online_workinghyperlinks.pdf">PDF</a>
 
 ---
 # PPGIS - key dimensions
-Purpose/goal: raising awareness <-> a decision (possibly) 
+**Purpose/goal**: raising awareness <-> a decision (possibly) 
 
-How: being told <-> telling
+**How**: being told <-> telling
 
-What: Product <-> process
+**What**: Product <-> process
 
-Who: experts <-> non-experts
+**Who**: experts <-> non-experts
 
 ---
 # PPGIS - key context
-> the use of GIS to broaden public involvement in policymaking as well as to the value of GIS to promote the goals of nongovernmental organizations, grassroots groups, and community-based organizations (491)
+<div class="split-slide" markdown="1">
+<div markdown="1">
+
+> the **use of GIS to broaden public involvement in policymaking** as well as **the value of GIS to promote the goals** of nongovernmental organizations, grassroots groups, and community-based organizations (491)
 
 Why the interest in PPGIS?
 - Most information in policymaking already has a spatial component
-- Assumption is that extending that info to all stakeholders = better decisions
+- Assumption is that _extending_ that info to all stakeholders = better decisions
 - Maps persuade
 
 > PPGIS provides a unique approach for engaging the public in decision making through its goal to incorporate local knowledge, integrate and contextualize complex spatial information, allow participants to dynamically interact with input, analyze alternatives, and empower individuals and groups” (503)
 
-[Source - Sieber, 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+[Source - Sieber 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+</div>
+
+<div markdown="1">
+<iframe src="https://clausa.app.carto.com/map/0c6e02f6-988f-487d-94cb-3ca3bff6cd06?lat=34.436721&lng=-118.015208&zoom=10" width="100%" height="800px"></iframe>
+</div>
+</div>
 
 ---
 # PPGIS - key questions
+<div class="split-slide" markdown="1">
+<div markdown="1">
 
 But is GIS “a return to positivism in which its users **quantify passionately held positions** and **reduce complex societal processes** to points, lines, areas, and attributes”?
 
@@ -92,20 +120,27 @@ Does “use of the technology lend the **illusion of control** over decision mak
 
 Does “further promotion, indeed evangelism, of GIS **distract** grassroots groups and others from proven activist strategies such as protest…”?
 
-[Source - Sieber, 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+[Source - Sieber 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+</div>
+
+<div markdown="1">
+<iframe src="https://experience.arcgis.com/experience/44ef9c8234b64983ae0a16918563015e/?views=View-4" width="100%" height="800px"></iframe>
+</div>
+</div>
 
 ---
 # PPGIS - examples
 > GIS “supporting various stages of a more collaborative planning process, such as disseminating planning-related information online, expanding the number of stakeholders in planning, easing the understanding of analyses through visualization, and weighting alternatives utilizing graphical user interfaces” (493)
 
 Example: [Have Your Say Guelph](https://haveyoursay.guelph.ca/en/) and [Guelph Transit Proposed Network map](https://platform.remix.com/project/6a3a211f?latlng=43.53612,-80.22403,13.096&planningMode=present&sp.id=d9bee58d-1ecc-40fb-9853-de56cfc66b08)
-[Source - Sieber, 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+
+[Source - Sieber 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
 
 ---
 # PPGIS - but really?
-> “researchers new to the field have tended to constitute a somewhat technocratic view of PPGIS and their applications can lack extensive public interaction, other than perhaps to supply input, such as perceptions of street safety.” (493)
+> “**researchers new to the field have tended to constitute a somewhat technocratic view of PPGIS and their applications can lack extensive public interaction, other than perhaps to supply input,** such as perceptions of street safety.” (493)
 
-[Source - Sieber, 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+[Source - Sieber 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
 
 ---
 # PPGIS: **Place** and People
@@ -115,12 +150,14 @@ Law: different FOI laws, access to Census data
 
 Culture: acceptance of uncertainty, expert solutions
 
-> Not only can GIS be irrelevant, but its very benefits, such as improved visualization or data accuracy, can induce further injustice. (495)
+> **Not only can GIS be irrelevant, but its very benefits, such as improved visualization or data accuracy, can induce further injustice**. (495)
 
-[Source - Sieber, 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+[Source - Sieber 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
 
 ---
 # PPGIS: Place and **People**
+<div class="split-slide" markdown="1">
+<div markdown="1">
 > PPGIS participants are stakeholders who are affected by, bring knowledge or information to, and possess the power to influence a decision or program. (495)
 
 Relationships: from “cooperation, compliance, and collaboration to control.” (495)
@@ -129,34 +166,38 @@ Relationships: from “cooperation, compliance, and collaboration to control.”
 
 Public GIS? Or Publics? “multiple levels of public stemming from differing intensities of skills and attention” (496)
 
-[Source - Sieber, 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+[Source - Sieber 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+</div>
 
+<div markdown="1">
 Schlossberg and Shuford (2005):
 - those affected by a decision
 - who can bring important knowledge to a decision
 - have power to influence and/or affect implementation of a decision
 
 "Overarchingly, publics are constituted dependent on context and place."
+</div>
+</div>
 
 ---
 # PPGIS: **Technology** and Data
 > an effective PPGIS application depends on understanding how much and when technology should be brought into a process. (497)
 
-No direct use -> passive use -> active use -> proactive use
+No direct use <-> passive use <-> active use <-> proactive use
 
 > In many examples, technology in PPGIS is not regarded as a passive instrument, but instead represents a malleable tool that participants, provided they have a fairly high level of technical skills, can shift to suit their goals (497)
 
-[Source - Sieber, 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+[Source - Sieber 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
 
 ---
 # PPGIS: Technology and **Data**
 > **Access** is variously defined as information about the policy-making process, acquisition of the raw digital data being used to craft that policy, the supply of public information, or the ability to submit information into official data sets (497)
 
-> **Appropriateness**: Data that are important to social scientists, such as census socioeconomic and property tax data, may contain little significance to community groups (498)
+> **Appropriateness**: _Data that are important to social scientists, such as census socioeconomic and property tax data, may contain little significance to community groups_ (498)
 
 > **Info**: relevant and accessible data for a purpose (498)
 
-[Source - Sieber, 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+[Source - Sieber 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
 
 ---
 # PPGIS: Process
@@ -168,15 +209,23 @@ No direct use -> passive use -> active use -> proactive use
 
 Implementation = adoption, a function of costs, expertise, coordination, champions
 
-[Source - Sieber, 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+[Source - Sieber 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
 
 ---
 # PPGIS: Process
-> According to a ladder model, participation in PPGIS can range from mere **tokenism** (e.g., the number of hits on a web-GIS site), to collaboration (e.g., meeting of stakeholders where GIS is used to identify conflicts), to some degree of citizen control (e.g., changes in local ordinances that benefit a specific neighborhood)” (500)
+<div class="split-slide" markdown="1">
+<div markdown="1">
 
+> According to a ladder model, participation in PPGIS can range from mere **tokenism** (e.g., the number of hits on a web-GIS site), to **collaboration** (e.g., meeting of stakeholders where GIS is used to identify conflicts), to some degree of **citizen control** (e.g., changes in local ordinances that benefit a specific neighborhood)” (500)
+
+[Source - Sieber 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+
+</div>
+
+<div markdown="1">
 ![Arnstein's Ladder](https://citizenshandbook.org/arnsteins_ladder.png)
-
-[Source - Sieber, 2007](https://dusk.geo.orst.edu/virtual/2007/sieber2006.pdf)
+</div>
+</div>
 
 --- 
 # PPGIS: Process
@@ -186,13 +235,21 @@ Implementation = adoption, a function of costs, expertise, coordination, champio
 
 ---
 # VGI ("Volunteered" Geographic Information)
+<div class="split-slide" markdown="1">
+<div markdown="1">
 From PPGIS to VGI
 
 **User-generated content**
 > Any form of content that has been posted by users on online platforms, for example, images, videos, text, and audio contributed by social media users and wikis contributors.
 
-Volunteered geographic information (VGI)
+**Volunteered geographic information (VGI)**
 > broadly encompasses geographic data contributed by non-professional volunteers such as participants in citizen science, crowdsourcing, neogeography, participatory mapping, public participation GIS, etc. and social media users, as long as they share the characteristics of voluntary and non-expert geographic data contribution
+</div>
+
+<div markdown="1">
+![VGI model](https://bok-figures.s3.amazonaws.com/files/DC29_Fig1.png)
+</div>
+</div>
 
 ---
 # VGI - what does "voluntary" mean?
@@ -200,6 +257,8 @@ Volunteered geographic information (VGI)
 
 ---
 # VGI Examples
+<div class="split-slide" markdown="1">
+<div markdown="1">
 VGI can be loosely grouped into three types: **geospatial framework data**, **gazetteer data**, and **thematic data**.
 
 Framework examples: OpenStreetMap/OSM (Wikipedia for maps)
@@ -207,18 +266,33 @@ Framework examples: OpenStreetMap/OSM (Wikipedia for maps)
 Gazetteer examples: OSM, Google Places reviews
 
 Thematic examples: iNaturalist, eBird, [land cover map validation](https://scistarter.org/land-loss-lookout), [social media to inform disaster response](https://courses.ems.psu.edu/geog858/node/689), etc.
+</div>
 
-<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed?bbox=-80.38799285888673%2C43.482570185845766%2C-80.1174545288086%2C43.597300467515375&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=13/43.53996/-80.25272">View Larger Map</a></small>
+<div markdown="1">
+<iframe width="100%" height="800" src="https://www.openstreetmap.org/export/embed?bbox=-80.38799285888673%2C43.482570185845766%2C-80.1174545288086%2C43.597300467515375&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+</div>
+</div>
+
 
 ---
 # VGI Bias
+<div class="split-slide" markdown="1">
+<div markdown="1">
+
 **Representativeness**
 > the degree to which a “sample” consisting of VGI observations can represent the underlying “population”. Observations in a VGI dataset is a sample drawn from the universe of all instances of the underlying geographic phenomenon (i.e., the population) (Jensen & Shumway, 2010).
 
 **Demographic biases in contributors** 
 > not all citizens have an equal opportunity to contribute to VGI due to reasons including (but not limited to) digital divide (e.g., urban/rural divide, unequal access to technology) (Hecht & Stephens, 2014; Sui, Goodchild, & Elwood, 2013).
 
+</div>
+
+<div markdown="1">
+![eBird distribution bias](https://bok-figures.s3.amazonaws.com/files/DC29_Fig2.png)
+
 [eBird](https://ebird.org/hotspots?env.minX=-141.006867&env.minY=41.708293&env.maxX=-52.618888&env.maxY=83.110626)
+</div>
+</div>
 
 ---
 # Ethics
@@ -257,6 +331,8 @@ Maps are strongly associated with truth – as such, map-makers are afforded a l
 - Conflict of interest as a contractor, employee – e.g. a Greenbelt expansion map that conveniently avoids including the property you want to sell
 - Abuse of power and “explicit” bias
 
+---
+# Ethics - Examples
 **Issues related to data**
 - Harms from extraction – e.g. designing a mobile app that records geolocation
   - Invasion of privacy (of both humans and non-humans?)
@@ -321,22 +397,22 @@ What is troublesome knowledge in GIS? - ideas that we find difficult to consider
 - Realize opportunities, Understand impacts, Do no harm, Protect the vulnerable, Address bias, Minimize intrusion, Minimize data, Protect privacy, Prevent identification of individuals, Provide accountability
 
 [AAG White Paper on Locational Information and the Public Interest](https://www.aag.org/wp-content/uploads/1900/09/2022-White-Paper-on-Locational-Information-and-the-Public-Interest.pdf)
-(1) Accountability
-**(2) Public Participation**
-(3) Resources
-(4) Informed Consent
-(5) Legitimacy
-(6) Necessity
-(7) Proportionality
-(8) Universality
-(9) Prohibitions
-(10) Objections
-(11) Security
-(12) Erasure
-(13) Negotiability
-(14) Reassessment
-(15) Enforceability
-(16) Non-Retaliation
+1. Accountability
+2. **Public Participation**
+3. Resources
+4. Informed Consent
+5. Legitimacy
+6. Necessity
+7. Proportionality
+8. Universality
+9. Prohibitions
+10. Objections
+11. Security
+12. Erasure
+13. Negotiability
+14. Reassessment
+15. Enforceability
+16. Non-Retaliation
 
 ---
 # Ethics - Frameworks
@@ -347,18 +423,23 @@ What is troublesome knowledge in GIS? - ideas that we find difficult to consider
 ---
 # Ethics in Data
 - **Open data**: data anyone can access, analyze, use, and share (perhaps with some limitations)
-- **FAIR data**: data that meets findable, accessible, interoperable, reusable standards
-- **CARE principles** for Indigenous data governance: collective benefit, authority to control, responsibility, ethics
-- **OCAP™**: ownership, control, access, and possession
+- **[FAIR data](https://www.gofair.foundation/fair-principles)**: data that meets findable, accessible, interoperable, reusable standards
+- **[CARE principles](https://www.gida-global.org/careprinciples)** for Indigenous data governance: collective benefit, authority to control, responsibility, ethics
+- **[OCAP™](https://fnigc.ca/ocap-training/)**: ownership, control, access, and possession
 
 ---
 # Data Feminism
+<div class="split-slide" markdown="1">
+<div markdown="1">
 > A new way of thinking about data science and data ethics that is informed by the ideas of intersectional feminism.
+</div>
 
+<div markdown="1">
 ![Data Feminism cover](https://assets.pubpub.org/76rhkjpc/11582681171002.jpg?width=600&fit=bounds)
 
-
 [Source](https://data-feminism.mitpress.mit.edu/)
+</div>
+</div>
 
 ---
 # (Intersectional) Feminism
@@ -378,33 +459,39 @@ What is troublesome knowledge in GIS? - ideas that we find difficult to consider
 
 --- 
 # Data Feminism principles
-- **Examine power.** Data feminism begins by analyzing how power operates in the world.
-- **Challenge power.** Data feminism commits to challenging unequal power structures and working toward justice.
-- **Elevate emotion and embodiment.** Data feminism teaches us to value multiple forms of knowledge, including the knowledge that comes from people as living, feeling bodies in the world.
-- **Rethink binaries and hierarchies.** Data feminism requires us to challenge the gender binary, along with other systems of counting and classification that perpetuate oppression.
-- **Embrace pluralism.** Data feminism insists that the most complete knowledge comes from synthesizing multiple perspectives, with priority given to local, Indigenous, and experiential ways of knowing.
-- **Consider context.** Data feminism asserts that data are not neutral or objective. They are the products of unequal social relations, and this context is essential for conducting accurate, ethical analysis.
-- **Make labor visible.** The work of data science, like all work in the world, is the work of many hands. Data feminism makes this labor visible so that it can be recognized and valued.
+- **Examine power.** DF begins by analyzing how power operates in the world.
+- **Challenge power.** DF commits to challenging unequal power structures and working toward justice.
+- **Elevate emotion and embodiment.** DF teaches us to value multiple forms of knowledge, including the knowledge that comes from people as living, feeling bodies in the world.
+- **Rethink binaries and hierarchies.** DF requires us to challenge the gender binary, along with other systems of counting and classification that perpetuate oppression.
+- **Embrace pluralism.** DF insists that the most complete knowledge comes from synthesizing multiple perspectives, with priority given to local, Indigenous, and experiential ways of knowing.
+- **Consider context.** DF asserts that data are not neutral or objective. They are the products of unequal social relations, and this context is essential for conducting accurate, ethical analysis.
+- **Make labor visible.** The work of data science, like all work in the world, is the work of many hands. DF makes this labor visible so that it can be recognized and valued.
 
 ---
 # Feminist mapping
-“’Doing’ feminist mapping situates … **mapping as process** … *Reflexivity* guides individuals and groups to articulate and challenge the multiple ways they occupy differential spaces of privilege and oppression in their work…Without reflexivity, we situate ourselves (knowingly or not) as objective, unbiased producers of knowledge. This is particularly poignant for mapmakers where, as Britta Ricker asserts, ‘there is an inherent risk to represent a single reality, point of view, set of values of the specific demographic who make maps’”
+<div class="split-slide" markdown="1">
+<div markdown="1">
 
-“A feminist mapping toolkit centered around pressing pause on traditional mapping workflows”
+> ’Doing’ feminist mapping situates … **mapping as process** … *Reflexivity* guides individuals and groups to articulate and challenge the multiple ways they occupy differential spaces of privilege and oppression in their work…Without reflexivity, we situate ourselves (knowingly or not) as objective, unbiased producers of knowledge. This is particularly poignant for mapmakers where, as Britta Ricker asserts, ‘there is an inherent risk to represent a single reality, point of view, set of values of the specific demographic who make maps’
 
+</div>
+
+<div markdown="1">
 ![Kelly/Bosse's feminist mapping process]({{ site.baseurl }}/assets/images/feministmapping.png)
 
 [Source - Kelly and Bosse, 2022](https://acme-journal.org/index.php/acme/article/view/2083)
+</div>
+</div>
 
 ---
 # Career Reflection 2
 
 600 words or less (~200 words per prompt)
 
-1. Reflect on one technique you had wanted to learn at the start of the course (see Career Reflection 1): what surprised you about it, are you now more or less interested in it, what are your next steps to keep working at it, etc.?
-2. A big theme - perhaps the biggest theme of the course - is that GIS for Decision-Making is only as good as the assumptions behind our data and models and how well they reflect reality and/or whether they are fit for use. Name and briefly describe one moment where you encountered this idea in the lab work for the course (tutorials or applications)
-3. Reflect on yourself as a learner - what did you learn about how you learn?
-4. We recently learned about professional ethics within GIS (week 10). Reflect on one moment this semester where, in the tutorials or applications, you encountered an ethical dilemma. Describe it in terms of the principles, obligations, and/or tests we discussed.
+1. _Reflect on one technique you had wanted to learn at the start of the course_ (see Career Reflection 1): what surprised you about it, are you now more or less interested in it, what are your next steps to keep working at it, etc.?
+2. A big theme - perhaps the biggest theme of the course - is that GIS for Decision-Making is only as good as the assumptions behind our data and models and how well they reflect reality and/or whether they are fit for use. _Name and briefly describe one moment where you encountered this idea in the lab work for the course (tutorials or applications)_
+3. Reflect on yourself as a learner - _what did you learn about how you learn_?
+4. We recently learned about professional ethics within GIS (week 10). _Reflect on one moment this semester where, in the tutorials or applications, you encountered an ethical dilemma._ Describe it in terms of the principles, obligations, and/or tests we discussed.
 
 **Marking**: Each question is marked out of 3 points. 1 point for appropriate length, 1 point for relevance, 1 point for substance/depth. 
 
@@ -418,7 +505,7 @@ In this final two part-tutorial, you will re-create ECCC’s EEPCI, then make it
 </div>
 <div markdown="1">
 
-![Survey123 image]({{ site.baseurl }}/assets/images/indices.png)
+![ECCC EEPCI image]({{ site.baseurl }}/assets/images/indices.png)
 
 </div>
 </div>
